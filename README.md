@@ -36,10 +36,15 @@ The test_squares_adder_auto() test case generates pairwise combinations of value
 # Report
 
 ## The given interval is not calculated inclusively.
-
+the behaviour is not consistent with the programme description.
 ## Negative values are not handled.
+Fix or handle.
+```
+Failed: OverflowError occurred.
+```
 
 ## Wrong behaviour during the power of sums for big values.
+It seems like it is working under Half-precision floating-point format
 Cases:
 
 | Start | End | Result | Expected |
