@@ -1,0 +1,27 @@
+positive:
+  - start: 1
+    end: 5
+    expected_sum: 55
+  - start: 10
+    end: 20
+    expected_sum: 935
+
+negative:
+  - start: -1
+    end: -5
+    expected_sum: 55
+  - start: -10
+    end: -20
+    expected_sum: 935
+
+inverse:
+  - start: 5
+    end: 1
+    expected_sum: 55
+  - start: 20
+    end: 10
+    expected_sum: 935
+
+auto:
+    start: 5
+    end: 100
